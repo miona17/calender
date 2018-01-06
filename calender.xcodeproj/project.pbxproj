@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A311FA221FDBFA7700A5E095 /* CalenderellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A311FA211FDBFA7700A5E095 /* CalenderellCollectionViewCell.swift */; };
+		A311FA241FDBFAC500A5E095 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A311FA231FDBFAC500A5E095 /* DateManager.swift */; };
 		A3E35ADC1FC95E7B00F51B9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E35ADB1FC95E7B00F51B9B /* AppDelegate.swift */; };
 		A3E35ADE1FC95E7B00F51B9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E35ADD1FC95E7B00F51B9B /* ViewController.swift */; };
 		A3E35AE11FC95E7B00F51B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E35ADF1FC95E7B00F51B9B /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A311FA211FDBFA7700A5E095 /* CalenderellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderellCollectionViewCell.swift; sourceTree = "<group>"; };
+		A311FA231FDBFAC500A5E095 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 		A3E35AD81FC95E7B00F51B9B /* calender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E35ADB1FC95E7B00F51B9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3E35ADD1FC95E7B00F51B9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,8 +101,10 @@
 		A3E35ADA1FC95E7B00F51B9B /* calender */ = {
 			isa = PBXGroup;
 			children = (
+				A311FA231FDBFAC500A5E095 /* DateManager.swift */,
 				A3E35ADB1FC95E7B00F51B9B /* AppDelegate.swift */,
 				A3E35ADD1FC95E7B00F51B9B /* ViewController.swift */,
+				A311FA211FDBFA7700A5E095 /* CalenderellCollectionViewCell.swift */,
 				A3E35ADF1FC95E7B00F51B9B /* Main.storyboard */,
 				A3E35AE21FC95E7B00F51B9B /* Assets.xcassets */,
 				A3E35AE41FC95E7B00F51B9B /* LaunchScreen.storyboard */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A311FA221FDBFA7700A5E095 /* CalenderellCollectionViewCell.swift in Sources */,
+				A311FA241FDBFAC500A5E095 /* DateManager.swift in Sources */,
 				A3E35ADE1FC95E7B00F51B9B /* ViewController.swift in Sources */,
 				A3E35ADC1FC95E7B00F51B9B /* AppDelegate.swift in Sources */,
 			);
